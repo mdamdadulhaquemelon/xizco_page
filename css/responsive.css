@@ -1,0 +1,464 @@
+/*// Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {}
+
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	.price_area .price_info .single_price .price_btn .them_btn {
+		transform: translate(29%, 50%);
+	}
+
+	.price_area .price_info .single_price .price_type {
+		padding-bottom: 70px;
+	}
+
+	.price_area .price_info .single_price .price_type h3 {
+		padding-bottom: 50px;
+	}
+
+	.price_area .price_info .single_price .price_type .price_box {
+
+		width: 100px;
+		height: 100px;
+		top: 60px;
+	}
+
+	.price_area .price_info .single_price .price_text span {
+		padding-top: 11px;
+		padding-bottom: 11px;
+	}
+}
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+	/*=========	header area =========*/
+	.section_head span::before {
+		width: 25px;
+	}
+
+	.section_head span {
+		width: 132px;
+	}
+
+	.navbar-brand {
+		display: flex;
+		justify-content: center;
+	}
+
+	.banner_info {
+		padding-top: 195px;
+		padding-bottom: 195px;
+	}
+
+	.banner_info .banner_text h1 {
+		font-size: 41px;
+	}
+
+	.about_span {
+		height: 2px;
+		width: 360px
+	}
+
+	.single_service {
+		padding-left: 58px;
+		padding-right: 58px;
+	}
+
+	.client_area .section_head span::before {
+		left: 50%;
+		transform: translate(-50%, -50%);
+
+	}
+
+	.message_info .message_btn {
+		padding-top: 48px;
+		text-align: center;
+	}
+
+	.corporate_area .Corporate_btn {
+		right: 24px;
+	}
+
+	.corporate_area .section_head .head_title h2 {
+		font-size: 23px;
+	}
+
+	.corporate_area .section_head .head_title p {
+		font-size: 10px;
+	}
+
+	.about_fo_info .icon {
+		padding-top: 10px;
+	}
+
+	.copyright_area .copyright_text p {
+		padding-top: 25px;
+		font-size: 11px;
+	}
+
+	.copyright_area .copyright_menu ul li {
+		padding-bottom: 21px;
+		padding-top: 25px;
+		padding-left: 20px;
+		font-size: 11px;
+	}
+
+	.section_head .head_title h2 {
+		font-size: 20px;
+	}
+
+	.counter_area .counter_overly .count_items {
+		padding-top: 55px;
+		padding-bottom: 55px;
+	}
+
+	.counter_area .counter_overly .count_items .icon {
+		padding-bottom: 15px;
+	}
+
+	.counter_area .counter_overly .count_items .text h5 {
+		padding-top: 10px;
+		font-size: 12px;
+	}
+
+	.price_area .price_info .single_price .price_btn .them_btn {
+		transform: translate(65%, 50%);
+	}
+
+	.blog_info .single_blog .text h3 {
+		font-size: 15px;
+	}
+
+	.work_info .single_work .work_img .img_overly .overly_items {
+		position: absolute;
+		left: 50%;
+		top: 50%;
+		transform: translate(-50%, -50%);
+	}
+
+
+
+
+}
+
+/*// Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+	.header_buttom_area {
+		display: none;
+	}
+
+	.banner_info {
+		padding-top: 90px;
+		padding-bottom: 90px;
+	}
+
+	.banner_info .banner_text h1 {
+		font-size: 32px;
+		margin-bottom: 15px;
+	}
+
+	.them_btn {
+		width: 100px;
+		height: 35px;
+		line-height: 35px;
+		font-size: 12px;
+	}
+
+	.slick-dots {
+		position: absolute;
+		top: 80%;
+		left: 6%;
+	}
+
+	.section_head .head_title h2 {
+		font-size: 20px;
+	}
+
+	.section_head span {
+		width: 90px;
+	}
+
+	.section_head span::before {
+		height: 4px;
+		width: 15px;
+	}
+
+	.about_span {
+		margin-top: 0px;
+		height: 2px;
+		width: 300px;
+	}
+
+	.icon_box {
+		width: 40px;
+		height: 40px;
+		line-height: 40px;
+	}
+
+	.about_info .text {
+		padding-left: 20px;
+	}
+
+	.about_info .text h3 {
+		font-size: 14px;
+	}
+
+	.about_info .text p {
+		font-size: 10px;
+	}
+
+	.about_info .financial .text h3 {
+		font-size: 16px;
+	}
+
+	.section_head .head_title h2 {
+		padding-top: 15px;
+	}
+
+	.service_info .text h3 {
+		font-size: 13px;
+	}
+
+	.service_info .text p {
+		padding: 24px 26px;
+		font-size: 10px;
+		padding-bottom: 10px;
+	}
+
+	.single_service {
+		padding: 19px 11px;
+		transition: all .2s linear;
+	}
+
+	.work_info .work_gal_controller .them_btn {
+		font-size: 10px;
+	}
+
+	.work_info .single_work .work_img .img_overly .overly_items {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+	}
+
+	.counter_area .counter_overly .count_items {
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
+
+	.counter_area .counter_overly .count_items .icon a {
+		width: 70px;
+		height: 70px;
+		line-height: 70px;
+	}
+
+	.counter_area .counter_overly .count_items .text span {
+		font-size: 15px;
+	}
+
+	.counter_area .counter_overly .count_items .text h5 {
+		padding-top: 7px;
+		font-size: 8px;
+	}
+
+	.counter_area .counter_overly .count_items .icon {
+		padding-bottom: 15px;
+	}
+
+	.team_info .single_team .image {
+		width: 85px;
+		height: 85px;
+		border: 2px solid #eaeaea;
+		margin: 20px auto;
+	}
+
+	.team_info .single_team .text {
+		padding-top: 10px;
+	}
+
+	.team_info .single_team .text h3 {
+		font-size: 15px;
+	}
+
+	.team_info .single_team .text span {
+		font-size: 13px;
+	}
+
+	.team_info .single_team .text p {
+		padding: 10px 29px;
+		font-size: 10px;
+	}
+
+	.client_area .section_head span::before {
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+	}
+
+	.client_info .single_client .image {
+		width: 90px;
+		height: 90px;
+	}
+
+	.client_area .faq_area .single_faq .faq_header .faq_btn i {
+		padding: 10px 10px;
+		font-size: 15px;
+	}
+
+	.client_area .faq_area .single_faq .faq_header .text h3 {
+		padding-top: 10px;
+		padding-bottom: 10px;
+		font-size: 15px;
+	}
+
+	.client_area .faq_area .single_faq .faq_body {
+		margin-top: 22px;
+		width: calc(100% - 63px);
+	}
+
+	.client_area .faq_area .single_faq .faq_body p {
+		padding-top: 14px;
+		padding-bottom: 0;
+		padding-left: 9px;
+		font-size: 10px;
+	}
+
+	.price_area .price_info .single_price .price_type .price_box {
+		width: 85px;
+		height: 85px;
+		top: 58px;
+		border: 2px solid #eaeaea;
+	}
+
+	.price_area .price_info .single_price .price_box h2 {
+		line-height: 85px;
+		font-size: 20px;
+	}
+
+	.price_area .price_info .single_price .price_box h2 span {
+		font-size: 10px;
+	}
+
+	.price_area .price_info .single_price .price_type h3 {
+		font-size: 20px;
+		padding-top: 20px;
+		padding-bottom: 57px;
+	}
+
+	.price_area .price_info .single_price .price_type {
+		padding-bottom: 55px;
+	}
+
+	.price_area .price_info .single_price .price_text span {
+		font-size: 10px;
+		padding-top: 11px;
+		padding-bottom: 11px;
+	}
+
+	.price_area .price_info .single_price .price_btn .them_btn {
+		transform: translate(63%, 50%);
+	}
+
+	.price_area .price_info {
+		padding-top: 35px;
+	}
+
+	.corporate_area .section_head .head_title h2 {
+		font-size: 15px;
+	}
+
+	.corporate_area .section_head .head_title p {
+		padding-top: 14px;
+		font-size: 10px;
+	}
+
+	.about_fo_info .icon {
+		display: none;
+	}
+
+	/*copyrigth*/
+	.copyright_area .copyright_text p {
+		padding-top: 5px;
+		font-size: 9px;
+	}
+
+	.copyright_area .copyright_menu ul li {
+		padding-bottom: 5px;
+		padding-top: 5px;
+		padding-left: 5px;
+		font-size: 10px;
+	}
+
+	.footer_area .footer_head h2 {
+		font-size: 14px;
+	}
+
+	.footer_area .footer_head h2::before {
+		width: 28px;
+		top: 114%;
+	}
+
+	.about_fo_info {
+		padding-top: 18px;
+	}
+
+	.blog_fo_info {
+		padding-top: 18px;
+	}
+
+	.footer_link_info {
+		padding-top: 18px;
+	}
+
+	.about_fo_info .text p {
+		font-size: 12px;
+		padding-bottom: 0px;
+	}
+
+	.blog_fo_info .text .text_info a {
+		font-size: 12px;
+	}
+
+	.blog_fo_info .text p {
+		font-size: 11px;
+	}
+
+	.footer_link_info ul li {
+		font-size: 12px;
+	}
+
+	.footer_link_info ul li i {
+		font-size: 10px;
+	}
+
+	.footer_link_info ul li {
+		line-height: 1;
+	}
+
+	.footer_flick_info {
+		padding-top: 18px;
+	}
+
+	.header_top_area {
+		display: none;
+	}
+
+	.navbar-light .navbar-toggler i {
+		color: #fff;
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+
+	.meain_menu .navbar-nav {
+		text-align: center;
+	}
+
+	.navbar-light .navbar-toggler i {
+		color: #fff;
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+}
+
+/*// Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {}
