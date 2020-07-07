@@ -9,7 +9,7 @@ $(function () {
 
 	//	banner slider
 	$(".banner_slider").slick({
-		autoplay: false,
+		autoplay: true,
 		dots: true,
 		infinite: true,
 		slidesToShow: 1,
@@ -56,13 +56,5 @@ $(function () {
 		$(this).children('.faq_btn').addClass('active');
 
 	});
-
-
-
-
-
-
-
-
 
 });
